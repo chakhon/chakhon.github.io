@@ -29,19 +29,17 @@
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Software Engineering",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Game Development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Technology",
       "keywords": [
       ]
     }
@@ -55,28 +53,29 @@
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "HTML",
+        "CSS",
+        "XML",
+        "Python"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "Windows 7,10",
         "Ubuntu",
-        "Git/GitHub",
+        "GitHub",
         "g++",
-        "TI LaunchPad"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2022)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2018-08-20",
       "endDate": "Present",
       "gpa": "",
       "courses": [
@@ -85,27 +84,29 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "President William McKinley High School",
+      "position": "Paraprofessional Tutor",
+      "website": "https://www.mckinley.k12.hi.us/",
+      "startDate": "2020-08-24",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Online Tutor during the COVID-19 Pandemic",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Manage and schedule students for online tutoring",
+        "Tutoring students who needs help with homework problems"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Gyotaku Japanese Restaurant - King Street",
+      "position": "Busser",
+      "website": "https://gyotakuhawaii.com/",
+      "startDate": "2019-03-19",
+      "endDate": "Present",
+      "summary": "Maintain cleanliness in the restaurant",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Clear tables of dishware and napkins after meals, and return them to the kitchen",
+        "Keep floors and chairs near dining tables clean by sweeping and mopping",
+        "Maintain appropriate stock levels of glassware, silverware, and dishware",
+        "Prepare coffee, tea, and ice water for customers"
       ]
     }
   ],

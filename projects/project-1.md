@@ -1,11 +1,11 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/ics212p1.jpg
 title: ICS 212 Project 1
-permalink: projects/micromouse
+permalink: projects/project-1
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-9-14
 labels:
   - C
   - Git
@@ -13,22 +13,56 @@ labels:
 summary: A simple bank account manager
 ---
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+This is a project I work on for ICS 212, the objective of the project is to create a simple bank record manager with 5 functions.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+'''
+1.Add a record
+2.Print a record onto the console
+3.Print all record onto the console
+4.Delete a record
+5.Modify a record
+'''
+A record a is object that was provided by the professor, and we used a single linked list to manage the record. To add a record you will need to provide account number, name and address. One of the requirement for taking in an address is that it must also be able to take in a multi-line address. Every time a new record is added or deleted we must also sort the list of record by its account number. To print,delete or modify a specific record, you will need to provide a account number. The print all record function has to print out all the records in a sorted manner. When the program end, it will save all records to a text file, next time the program starts it will read the text file and add all record back on the list. We also create a testing plan to test for bugs for this program.
 
-Here is some code that illustrates how we read values from the line sensors:
+Here is a sample output from the console when the program is running:
+'''
+uhx02:/home/c/chakhon/Project1% ./project1
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+
+Welcome to the record holding system.
+
+
+
+To choose an option, enter a number corresponding to the fuction.
+
+1: Add a new record in the database
+
+2: Print information on a record
+
+3: Print all records
+
+4: Modify the address of a record
+
+5: Delete an existing record
+
+0: Exit
+
+1
+
+
+
+Add a new record in the database:
+
+Enter the account number: 1234
+
+Enter name of record holder: Chak Hon Lam
+
+Enter address below:
+
+5095 Likink i ST
+
+APT A204
+'''
+
+Source: <a href="https://github.com/chakhon/ICS212/tree/master/Project1"><i class="large github icon">

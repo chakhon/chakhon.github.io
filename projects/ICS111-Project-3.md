@@ -1,61 +1,27 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/pro1img.png
+title: Dice' N Monsters
+permalink: projects/dice-n-monsters
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2018-11-27
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Java
+summary: A game inspired by Pokemon I worked on for ICS 111.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+Dice' N Monsters is a game I made with my friend Yiwen for our final project in ICS 111. The game is heavily inspired by Pokemon and Dungeon and Dragon.
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+<img class="ui image" src="{{ site.baseurl }}/images/pro1img5.png">
 
-To give you a flavor of the game, here is an excerpt from one run:
+In the game, the player can choose to play as a knight,viking or monk, each of them look different and has different stats. The objective to defeat as many enemy as possible. The instruction page bellow shows the rule and control of the game.
 
-<hr>
+<img class="ui image" src="{{ site.baseurl }}/images/pro1img2.png">
+<img class="ui image" src="{{ site.baseurl }}/images/pro1img3.png">
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+I developed the randomly generated tile map for the game using a series of for loops to write characters to a text file with different characters representing a different tile, and then it reads the text file to render the map. In order to make the map look nice I used a switch statement to check the previous tile that was generated to increase the chance of the next tile being the same type.
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+<img class="ui image" src="{{ site.baseurl }}/images/pro1img4.png">
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+Video: <a href="https://youtu.be/Nr1R9RVr3mc">

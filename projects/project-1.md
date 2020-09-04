@@ -66,4 +66,4 @@ Enter address below:
 APT A204
 ```
 
-Source: <a href="https://github.com/chakhon/ICS212/tree/master/Project1"><i class="large github icon">
+Source: <a href="https://github.com/chakhon/ICS212/tree/master/Project1"><i class="large github icon"></i>ICS212/tree/master/Project1</a>

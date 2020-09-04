@@ -24,4 +24,4 @@ I developed the randomly generated tile map for the game using a series of for l
 
 <img class="ui image" src="{{ site.baseurl }}/images/pro1img4.png">
 
-Video: <a href="https://youtu.be/Nr1R9RVr3mc">
+Video: <a href="https://youtu.be/Nr1R9RVr3mc">Youtube</a>

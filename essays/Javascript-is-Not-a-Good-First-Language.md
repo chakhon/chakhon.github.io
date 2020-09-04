@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Reflect on Javascript 1
+title: Javascript is Not a Good First Language
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-02
 labels:

@@ -17,9 +17,9 @@ Over the course of two year, I have spent time on learning more programming lang
 The smartest thing about Javascript is its ability to figure out what type of variable I wanted without the need for me to explicitly state that a variable is a integer or a string. This allow us to do some pretty funky stuff such as:
 
 ```javascript
-  var i = 1;
-  var j = '1';
-  console.log(i+j); // "11"
+var i = 1;
+var j = '1';
+console.log(i+j); // "11"
 ```
 
 This is great if you needed to add a integer with a string, or to create a function that could return both strings and integers. But I remember when I first started on Java and didn't understand type, the habit I got from Javascript was not a good one and it has led me to write some pretty bad codes.

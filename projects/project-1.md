@@ -10,7 +10,7 @@ labels:
   - C
   - Git
   - g++
-summary: A simple bank account manager
+summary: A simple bank account manager.
 ---
 
 This is a project I work on for ICS 212, the objective of the project is to create a simple bank record manager with 5 functions:
@@ -65,5 +65,3 @@ Enter address below:
 
 APT A204
 ```
-
-Source: <a href="https://github.com/chakhon/ICS212/tree/master/Project1"><i class="large github icon"></i></a>

@@ -61,9 +61,9 @@ Enter name of record holder: Chak Hon Lam
 
 Enter address below:
 
-5095 Likink i ST
+5095 Likinki ST
 
 APT A204
 ```
 
-Source: <a href="https://github.com/chakhon/ICS212/tree/master/Project1"><i class="large github icon"></i>ICS212/tree/master/Project1</a>
+Source: <a href="https://github.com/chakhon/ICS212/tree/master/Project1"><i class="large github icon"></i></a>

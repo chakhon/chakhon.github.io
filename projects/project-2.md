@@ -100,4 +100,4 @@ While the project 2 was a lot easier then project 1, I learned a lot form it. Ma
 
 
 
-Source: <a href="https://github.com/chakhon/ICS212/tree/master/Project1><i class="large github icon"></i></a>
+Source: <a href="https://github.com/chakhon/ICS212/tree/master/Project2><i class="large github icon"></i></a>

@@ -1,25 +1,103 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/ics212p1.jpg
+title: ICS 212 Project 2
+permalink: projects/project-2
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2019-12-13
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - C++
+  - Git
+  - g++
+  - Makefile
+summary: A simple bank account manager IN C++.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+This is a project I work on for ICS 212, the objective of the project is to convert the C code project 1 to C++. On top of the 5 original methods, we also have to implement a reverse method that reverse the list:
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+```
+1.Add a record
+2.Print a record onto the console
+3.Print all record onto the console
+4.Delete a record
+5.Modify a record
+6.Reverse the list
+```
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+Everything was basically the same as project 1, but we had to change all the output and input to use istream instead or stdio. We also implemented a list class that look like this.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+```C++
+class llist
+{
+private:
+    record *    start;
+    char        filename[16];
+    int         readfile();
+    int         writefile();
+    record *    reverse(record * );
+    void        cleanup();
+
+public:
+    llist();
+    llist(char[]);
+    llist(const llist &);
+    ~llist();
+    llist &operator = (const llist &);
+    int addRecord(int, char [ ],char [ ]);
+    int printRecord(int);
+    friend std::ostream &operator << (std::ostream &, const llist &);
+    int modifyRecord(int, char [ ]);
+    int deleteRecord(int);
+    void reverse();
+};
+```
+Every time the program starts, it would open a text document to read for the previous records, and each time we exit the program would also write to the file to save the records. Converting the C singly linked list to C+++ was way easier than I thought. The reverse function was the hardest part of the project, to solve it I used a recursive method.
+
+```c++
+/*****************************************************************
+//
+// Function name: reverse
+//
+// DESCRIPTION: reverse the record with the one next to it
+//
+// Parameters:  rec (record *) record to reverse
+//
+// Returns : rec (record *) the next record
+//
+******************************************************************/
+record* llist::reverse(record * rec)
+{
+    if (rec == NULL)
+    {
+        return NULL;
+    }
+    if (rec->next == NULL)
+    {
+        start = rec;
+        return rec;
+    }
+    record* temp = reverse(rec->next);
+    temp->next = rec;
+    rec->next = NULL;
+    return rec;
+}
+
+/*****************************************************************
+//
+// Function name: reverse
+//
+// DESCRIPTION: Calles the reverse(llist) function
+//
+******************************************************************/
+void llist::reverse()
+{
+    reverse(start);
+}
+```
+
+While the project 2 was a lot easier then project 1, I learned a lot form it. Mainly the difficulty of converting code from one language to another. It showed me that different languages have different strengths, and even though C and C++ is very similar, C++ is way better at object orientated programming.
+
+
+
+Source: <a href="https://github.com/chakhon/ICS212/tree/master/Project1><i class="large github icon"></i></a>

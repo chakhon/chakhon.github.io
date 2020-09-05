@@ -10,7 +10,8 @@ labels:
   - C
   - Git
   - g++
-summary: A simple bank account manager.
+  - Makefile
+summary: A simple bank account manager in C.
 ---
 
 This is a project I work on for ICS 212, the objective of the project is to create a simple bank record manager with 5 functions:
@@ -66,5 +67,8 @@ Enter address below:
 
 APT A204
 ```
+This is the summary I wrote after finishing the project:
+
+The test went pretty smoothly, many test was passed as planned, other than checking on the inputs. I am not sure how to check if symbol were entered. And because symbol were entered it breaks the format of the program. Which means I have to start over and skip them. There are also some wording problem from my test plan, which make it hard to determine if my program have passed. I also added more test to improve my test plan and to test more feature of the requirement. If I were to write a test plan next time I will make sure I have consider all aspect of the project before doing so.
 
 Source: <a href="https://github.com/chakhon/ICS212/tree/master/Project1><i class="large github icon"></i></a>

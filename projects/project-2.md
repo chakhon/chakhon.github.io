@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/ics212p1.jpg
+image: images/ics212p2.jpg
 title: ICS 212 Project 2
 permalink: projects/project-2
 # All dates must be YYYY-MM-DD format!
@@ -54,7 +54,7 @@ public:
 ```
 Every time the program starts, it would open a text document to read for the previous records, and each time we exit the program would also write to the file to save the records. Converting the C singly linked list to C+++ was way easier than I thought. The reverse function was the hardest part of the project, to solve it I used a recursive method.
 
-```c++
+```C++
 /*****************************************************************
 //
 // Function name: reverse
@@ -100,4 +100,4 @@ While the project 2 was a lot easier then project 1, I learned a lot form it. Ma
 
 
 
-Source: <a href="https://github.com/chakhon/ICS212/tree/master/Project2><i class="large github icon"></i></a>
+Source: <a href="https://github.com/chakhon/ICS212/tree/master/Project2"><i class="large github icon"></i></a>

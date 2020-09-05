@@ -27,7 +27,7 @@ This is a project I work on for ICS 212, the objective of the project is to conv
 
 Everything was basically the same as project 1, but we had to change all the output and input to use istream instead or stdio. We also implemented a list class that look like this.
 
-```C++
+```c++
 class llist
 {
 private:
@@ -54,7 +54,7 @@ public:
 ```
 Every time the program starts, it would open a text document to read for the previous records, and each time we exit the program would also write to the file to save the records. Converting the C singly linked list to C+++ was way easier than I thought. The reverse function was the hardest part of the project, to solve it I used a recursive method.
 
-```C++
+```c++
 /*****************************************************************
 //
 // Function name: reverse

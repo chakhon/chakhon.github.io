@@ -6,7 +6,10 @@ title: Why Use UI Frameworks
 date: 2020-10-08
 labels:
   - Software Engineering
-  - Learning
+  - HTML
+  - CSS
+  - UI design
+  - UI framework
 ---
 
 While HTML is quite an easy language to learn, it is very limited on what it can achieve on it’s own. Web Pages that use plain HTML would just look like a plain text document, but by using HTML along with CSS we can create web pages that have a more user friendly UI. However, anyone who has used HTML and CSS to build a website before knows that it is a pain to get the website to look exactly how you want. For example, if you want to center a div box inside another div box, you would have to mess with many of the CSS properties, such as the position and z-index. A big part of HTML and CSS is to manipulate div boxes to create a grid-like menu, and it is a very time consuming task to get each item to the place you have envisioned in your mind.

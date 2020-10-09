@@ -17,4 +17,4 @@ UI framework is basically a bunch of HTML,CSS and JavaScript presets that make b
 
 By using UI frameworks such as Semantic UI, web developers can save a lot of time and effort when creating a user friendly and attractive website that is suited to their needs. This is evident by the outrageous cost of $29.99 a month to learn Semantic UI on Pluralsight. It is way too time consuming to build a webpage from the ground up using pure HTML and CSS, employers rather pay for the employees to learn and use UI frameworks to save labor and time. This makes financial sense when you also have to update and maintain your webpage that could potentially earn you more business.
 
-<img scr="https://psmag.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTI3NTgyMzg2MzE2NzAxNjY2/time-is-money.jpg">
+<img class="ui image" src="https://psmag.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTI3NTgyMzg2MzE2NzAxNjY2/time-is-money.jpg">

@@ -56,7 +56,11 @@
         "HTML",
         "CSS",
         "XML",
-        "Python"
+        "JSON",
+        "Python",
+        "Underscore.js",
+        "Meteor",
+        "Semantic UI React"
       ]
     },
     {
@@ -66,7 +70,11 @@
         "Windows 7,10",
         "Ubuntu",
         "GitHub",
+        "Atom",
+        "Eclipse",
+        "Atom",
         "g++",
+        "Intellij"
       ]
     }
   ],

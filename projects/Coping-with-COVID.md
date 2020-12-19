@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/Corona.jpg
+image: images/corona.jpg
 title: Coping with COVID
 permalink: projects/coping-with-covid
 # All dates must be YYYY-MM-DD format!

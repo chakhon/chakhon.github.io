@@ -60,7 +60,8 @@
         "Python",
         "Underscore.js",
         "Meteor",
-        "Semantic UI React"
+        "Semantic UI React",
+        "MangoDB"
       ]
     },
     {

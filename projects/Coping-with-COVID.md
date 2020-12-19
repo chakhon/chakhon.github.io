@@ -5,7 +5,7 @@ image: images/corona.jpg
 title: Coping with COVID
 permalink: projects/coping-with-covid
 # All dates must be YYYY-MM-DD format!
-date: 2019-11-03
+date: 2019-12-18
 labels:
   - JavaScript
   - HTML
